@@ -1,20 +1,33 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# MyWebApp
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This is a simple "Hello, Azure DevOps!" Python application.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Getting Started
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+1.  Clone the repository: `git clone <your_github_repo_url>`
+2.  Run the application: `python app.py`
+3. Install the dependancies: `pip install -r requirements.txt`
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Azure DevOps Integration
+
+This project is integrated with Azure DevOps for CI/CD.
+
+### CI Pipeline
+
+The CI pipeline is configured in `azure-pipelines.yml`. It performs the following steps:
+
+1.  Uses Python 3.x.
+2.  Installs dependencies from `requirements.txt`.
+3.  Runs the `app.py` script.
+
+### Azure Boards
+
+Azure boards are used to track work items, user stories, and tasks related to this project.
+
+## Azure Repos
+
+This repository is hosted in Azure Repos and Github.
+
+## Personal Access Token (PAT)
+
+A Personal Access Token (PAT) was used to authenticate with Azure Repos.
